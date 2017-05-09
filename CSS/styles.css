@@ -167,7 +167,9 @@
 .navigation > ul > li > a:hover {
 	color: #666;
 }
-.slash {
+a.slash:after{
+	margin-left: 1em;
+	content: "/";
 	color:#e65753;
 	font-weight: bold;
 }
