@@ -167,12 +167,18 @@
 .navigation > ul > li > a:hover {
 	color: #666;
 }
-a.slash:after{
-	margin-left: 1em;
-	content: "/";
+.navigation > ul > li::after{
+	display: inline;
+	content:"/";
 	color:#e65753;
 	font-weight: bold;
+	text-align: left;
 }
+.navigation > ul > li:nth-child(6):after { 
+     content: "\A";
+     white-space: pre; 
+}
+
 
 .cart {
 }
