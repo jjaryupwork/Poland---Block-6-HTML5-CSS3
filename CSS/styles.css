@@ -168,7 +168,7 @@
 .navigation > ul > li > a:hover {
 	color: #666;
 }
-#navii li:first-child:before {
+#navii li:first-child :before {
 	content:"";
 	
 }
