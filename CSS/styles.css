@@ -157,7 +157,7 @@
 	margin-left:  10px;
 }
 
-.navigation > ul > li > a {
+.navigation > ul > li a{
 	display: block;
 	color: #444;
 	text-decoration: none;
@@ -168,16 +168,16 @@
 .navigation > ul > li > a:hover {
 	color: #666;
 }
- .navigation  li a:before, .f_navigation li a::before, .top.menu li a:before{
+#navii li:first-child:before {
+	content:"";
+	
+}
+ .navigation li :before, .f_navigation li :before, .top.menu li :before{
 	content:"/";
 	color:#e65753;
 	font-weight: bold;
 }
-.navigation li a:first-child:before, .f_navigation  a:first-child:befor, .top.menu  a:first-child:befor{
-	content:"123/";
-	color:green;
-	font-weight: bold;
-}
+
 .cart {
 }
 
